@@ -1,0 +1,13 @@
+/home/john/Documentos/Github/Proyecto-Rust/server/target/debug/deps/tracing-dab291e66a9a8cb1.rmeta: /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/lib.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/macros.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/dispatcher.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/field.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/instrument.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/level_filters.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/span.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/stdlib.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/subscriber.rs
+
+/home/john/Documentos/Github/Proyecto-Rust/server/target/debug/deps/tracing-dab291e66a9a8cb1.d: /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/lib.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/macros.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/dispatcher.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/field.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/instrument.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/level_filters.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/span.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/stdlib.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/subscriber.rs
+
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/lib.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/macros.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/dispatcher.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/field.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/instrument.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/level_filters.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/span.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/stdlib.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.22/src/subscriber.rs:
