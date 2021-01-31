@@ -1,0 +1,15 @@
+/home/john/Documentos/Github/Proyecto-Rust/server/target/debug/deps/uuid-b77fd90b5c2de4a5.rmeta: /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/lib.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/mod.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/error.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/error.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/mod.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/error.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/prelude.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/mod.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/compact.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/serde_support.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/v4.rs
+
+/home/john/Documentos/Github/Proyecto-Rust/server/target/debug/deps/uuid-b77fd90b5c2de4a5.d: /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/lib.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/mod.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/error.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/error.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/mod.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/error.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/prelude.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/mod.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/compact.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/serde_support.rs /home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/v4.rs
+
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/lib.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/mod.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/error.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/error.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/mod.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/error.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/prelude.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/mod.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/compact.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/serde_support.rs:
+/home/john/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/v4.rs:

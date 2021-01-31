@@ -28,13 +28,13 @@ pub async fn turn_on() -> std::io::Result<()> {
     .await
 }
 
-
+/*
 fn create_dir_temp(){
     std::env::set_var("RUST_LOG", "actix_server=info,actix_web=info");
     std::fs::create_dir_all("./tmp").unwrap_or_else(|e| panic!("Error creating dir: {}", e));
 
 }
-
+*/
 
  async fn save_file(mut payload: Multipart) -> Result<HttpResponse, Error> {
     // create_dir_temp();
