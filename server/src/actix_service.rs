@@ -35,7 +35,7 @@ fn create_dir_temp(){
 
 }
 */
-
+#[allow(dead_code)]
  async fn save_file(mut payload: Multipart) -> Result<HttpResponse, Error> {
     // create_dir_temp();
     while let Ok(Some(mut field)) = payload.try_next().await {
@@ -59,6 +59,7 @@ fn create_dir_temp(){
 
 
 //TO DO 
+#[allow(dead_code)]
 pub fn its_ready() -> HttpResponse {
    HttpResponse::Ok().into()
 }
