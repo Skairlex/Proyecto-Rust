@@ -4,7 +4,7 @@ use std::io::Write;
 use actix_multipart::Multipart;
 use actix_web::{middleware, Error, HttpResponse};
 use futures::{StreamExt, TryStreamExt};
- 
+use crate:: dbo_operations::*;
 
 //API MULTIPART
 #[actix_web::main]
@@ -54,6 +54,7 @@ fn create_dir_temp(){
             f = web::block(move || f.write_all(&data).map(|_| f)).await?;
         }
     }
+    save_csv_in_struct().expect("Error");
     Ok(HttpResponse::Ok().into())
 }
 

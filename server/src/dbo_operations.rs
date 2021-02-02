@@ -3,7 +3,7 @@ use dotenv::dotenv;
 use std::env;
 use diesel::insert_into;
 use std::error::Error;
-
+use crate::validate;
 
 
 pub fn establish_connection() -> PgConnection {
@@ -42,8 +42,8 @@ pub fn save_csv_in_struct() -> Result<(), Box<dyn Error>> {
             validado: true,
             observacion: String::from("N/A"),
         };
-
-        insert_persona(&connection,per); //Se guarda datos
+        let revisado=validate::validar_persona(per);
+        insert_persona(&connection,revisado); //Se guarda datos
         
     }
     Ok(())

@@ -5,7 +5,7 @@ table! {
         nombre -> Nullable<Text>,
         genero -> Nullable<Varchar>,
         estadocivil -> Nullable<Varchar>,
-        fechanacimiento -> Nullable<Text>,
+        fechanacimiento -> Nullable<Varchar>,
         telefono -> Nullable<Varchar>,
         direccion -> Nullable<Text>,
         email -> Nullable<Varchar>,
