@@ -1521,6 +1521,7 @@ dependencies = [
  "sanitize-filename",
  "serde",
  "serde_json",
+ "str-concat",
  "substring",
  "unidecode",
  "uuid 0.8.2",
@@ -1634,6 +1635,12 @@ name = "stdweb-internal-runtime"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "213701ba3370744dcd1a12960caa4843b3d68b4d1c0a5d575e0d65b2ee9d16c0"
+
+[[package]]
+name = "str-concat"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3468939e48401c4fe3cdf5e5cef50951c2808ed549d1467fde249f1fcb602634"
 
 [[package]]
 name = "substring"

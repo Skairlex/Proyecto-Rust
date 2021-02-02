@@ -38,6 +38,7 @@ fn create_dir_temp(){
 #[allow(dead_code)]
  async fn save_file(mut payload: Multipart) -> Result<HttpResponse, Error> {
     // create_dir_temp();
+    let mut namefile:String=String::new();
     while let Ok(Some(mut field)) = payload.try_next().await {
         let content_type = field.content_disposition().unwrap();
         let filename = content_type.get_filename().unwrap();
@@ -53,8 +54,9 @@ fn create_dir_temp(){
             // filesystem operations are blocking, we have to use threadpool
             f = web::block(move || f.write_all(&data).map(|_| f)).await?;
         }
+        namefile=sanitize_filename::sanitize(&filename).to_string();
     }
-    save_csv_in_struct().expect("Error");
+    save_csv_in_struct(namefile).expect("Error");
     Ok(HttpResponse::Ok().into())
 }
 

@@ -18,13 +18,15 @@ pub fn establish_connection() -> PgConnection {
 
 
 #[allow(unused_must_use)]
-pub fn save_csv_in_struct() -> Result<(), Box<dyn Error>> {
+pub fn save_csv_in_struct(n: String) -> Result<(), Box<dyn Error>> {
     let connection = establish_connection(); //Se establece conexión
-
+    let mut path_data=String::new();
+    path_data.push_str("./tmp/");
+    path_data.push_str(&n);
     let mut reader = csv::ReaderBuilder::new()
         .delimiter(b';')
         .has_headers(false)
-        .from_path("./tmp/Prueba1.csv")?;
+        .from_path(path_data)?;
 
 
     for result in reader.records() {
@@ -46,6 +48,7 @@ pub fn save_csv_in_struct() -> Result<(), Box<dyn Error>> {
         insert_persona(&connection,revisado); //Se guarda datos
         
     }
+    
     Ok(())
 }
 
